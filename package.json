@@ -1,0 +1,23 @@
+{
+  "name": "@sga/avalon",
+  "module": "index.ts",
+  "type": "module",
+  "description": "A CLI to generate random stuff that I needs for testing",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "5.0.0"
+  },
+  "bin": {
+    "sgavalon": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "bun build src/index.ts --outdir dist --target bun"
+  },
+  "dependencies": {
+    "@faker-js/faker": "9.7.0",
+    "commander": "13.1.0",
+    "zx": "8.5.3"
+  }
+}
