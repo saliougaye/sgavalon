@@ -1,5 +1,5 @@
 {
-  "name": "@sga/avalon",
+  "name": "sgavalon",
   "module": "index.ts",
   "type": "module",
   "description": "A CLI to generate random stuff that I needs for testing",
