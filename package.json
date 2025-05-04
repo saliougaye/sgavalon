@@ -11,7 +11,7 @@
     "typescript": "5.0.0"
   },
   "bin": {
-    "sgavalon": "./dist/index.js"
+    "sgavalon": "dist/index.js"
   },
   "scripts": {
     "build": "bun build src/index.ts --outdir dist --target bun"
@@ -20,5 +20,15 @@
     "@faker-js/faker": "9.7.0",
     "commander": "13.1.0",
     "zx": "8.5.3"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saliougaye/sgavalon.git"
+  },
+  "author": "Saliou Gaye",
+  "bugs": {
+    "url": "https://github.com/saliougaye/sgavalon/issues"
+  },
+  "homepage": "https://github.com/saliougaye/sgavalon#readme"
 }
