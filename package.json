@@ -3,6 +3,7 @@
   "module": "index.ts",
   "type": "module",
   "description": "A CLI to generate random stuff that I needs for testing",
+  "version": "1.0.0",
   "devDependencies": {
     "@types/bun": "latest"
   },
